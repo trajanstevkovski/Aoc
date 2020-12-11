@@ -1,6 +1,7 @@
 ﻿using Aoc._2019.Day01;
 using Aoc._2019.Day02;
 using Aoc._2019.Day04;
+using Aoc._2019.Day05;
 using System;
 
 namespace Aoc.App
@@ -9,9 +10,9 @@ namespace Aoc.App
     {
         static void Main(string[] args)
         {
-            var dd = new DayFour();
+            var dd = new DayFive();
             Console.WriteLine(dd.PuzzleOne());
-            Console.WriteLine(dd.PuzzleTwo());
+            //Console.WriteLine(dd.PuzzleTwo());
             Console.ReadLine();
         }
     }
