@@ -27,7 +27,7 @@ namespace Aoc._2019.Day05
 
         public long PuzzleTwo()
         {
-            return 0;
+            return 1;
         }
     }
 }
