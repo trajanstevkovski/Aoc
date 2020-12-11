@@ -17,7 +17,7 @@ namespace Aoc._2019.Day05
         public long PuzzleOne()
         {
             var inputArr = GetStringContent(_inputPath);
-            //var inputStr = "3,0,4,0,99";
+            // var inputStr = "3,0,4,0,99";
             var splitInput = inputArr.Split(',').Select(x => int.Parse(x)).ToArray();
 
             var intcode = new Intcode();
@@ -27,7 +27,13 @@ namespace Aoc._2019.Day05
 
         public long PuzzleTwo()
         {
-            return 1;
+            var inputArr = GetStringContent(_inputPath);
+            // var inputStr = "3,12,6,12,15,1,13,14,13,4,13,99,-1,0,1,9";
+            var splitInput = inputArr.Split(',').Select(x => int.Parse(x)).ToArray();
+
+            var intcode = new Intcode();
+
+            return intcode.TheThermalEnvironmentSupervisionTerminal(splitInput, 5);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Aoc.App
         {
             var dd = new DayFive();
             Console.WriteLine(dd.PuzzleOne());
-            //Console.WriteLine(dd.PuzzleTwo());
+            Console.WriteLine(dd.PuzzleTwo());
             Console.ReadLine();
         }
     }
