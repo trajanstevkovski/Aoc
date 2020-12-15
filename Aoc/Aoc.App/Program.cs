@@ -12,8 +12,8 @@ namespace Aoc.App
         static void Main(string[] args)
         {
             var dd = new DayThree();
-            Console.WriteLine(dd.PuzzleOne());
-            //Console.WriteLine(dd.PuzzleTwo());
+            //Console.WriteLine(dd.PuzzleOne());
+            Console.WriteLine(dd.PuzzleTwo());
             Console.ReadLine();
         }
     }
